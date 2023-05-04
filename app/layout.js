@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
             <i className="fa-brands fa-instagram text-slate-700 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
           </Link>
         </footer>
+        <div id="portal"></div>
       </body>
     </html>
   );

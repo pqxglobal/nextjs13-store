@@ -19,7 +19,7 @@ export default function Header() {
                     <p className="text-xs sm:text-sm">{cartItems.length}</p>
                 </div>
             )}
-          <i class="cursor-pointer group-hover:text-slate-500 fa-solid fa-cart-shopping"></i>
+          <i className="cursor-pointer group-hover:text-slate-500 fa-solid fa-cart-shopping"></i>
         </div>
       </header>
     </div>
