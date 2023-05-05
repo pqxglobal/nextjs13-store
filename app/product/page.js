@@ -10,10 +10,6 @@ export default function ProductPage(props) {
 
   console.log(productInfo);
 
-  // if (!product?.name) {
-  //   window.location.href = "/";
-  // }
-
   function handleAddToCart() {
     const newItem = {
         quantity: 1,
