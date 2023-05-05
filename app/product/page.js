@@ -10,7 +10,7 @@ export default function ProductPage(props) {
 
   console.log(productInfo);
 
-  if (!product?.name) {
+  if (!product?.name && typeof window !== 'undefined') {
     window.location.href = "/";
   }
 
